@@ -1,4 +1,12 @@
 .d1{
     color: black;
     background-color: peachpuff;
+    font-size: large;
 }
+.n1{
+    color: aliceblue;
+}
+.i1{
+    float: inline-center;
+}
+
