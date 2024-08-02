@@ -3,10 +3,15 @@
     background-color: peachpuff;
     font-size: large;
 }
-.n1{
-    color: aliceblue;
-}
+
 .i1{
     float: inline-center;
 }
 
+#n1{
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+#n1:hover{
+    color: purple;
+}

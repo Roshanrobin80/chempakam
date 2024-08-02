@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        display: grid;
+        grid-template-areas: 
+        'head1 head1 head1 head1'
+        'head2 head2 head2 head2'
+        'nav nav nav nav'
+        'side side menu menu'
+        'foot foot foot foot';
+        grid-template-rows:
+        40px 30px 50px 400px 50px;
+        }
+    .head1{
+        grid-area: head1;
+        background-color: bisque;
+        color: black;
+    }
+    .head2{
+        grid-area: head2;
+        background-color: rgb(245, 23, 23);
+        color: black;
+    } 
+    .nav{
+        grid-area: nav;
+        background-color: aqua;
+        color: black;
+    }
+      .side{
+        grid-area: side;
+        background-color: rgb(22, 238, 58);
+        color: rgb(0, 0, 0);
+    } 
+      .menu{
+        grid-area: menu;
+        background-color: rgb(18, 14, 223);
+        color: black;
+    }
+    .foot{
+        grid-area: foot;
+        background-color: rgb(233, 17, 186);
+        color: black;
+    }
+</style>
+<body>
+    <div class="main">
+    <div class="head1">hi</div>
+    <div class="head2">jhj</div>
+    <div class="nav">nav</div>
+    <div class="side">hd</div>
+    <div class="menu">jjdl</div>
+    <div class="foot">dvin</div>
+</div>
+</body>
+</html>
