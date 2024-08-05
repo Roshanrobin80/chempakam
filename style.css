@@ -1,17 +1,38 @@
+.main{
+    display: grid;
+    grid-template-areas:
+    'd1 d1  d1 d1 d1'
+    'd2 nav nav nav nav '
+    'd3 d3 d3 d3 d3';
+    grid-template-rows:
+    30px 100px 537px;
+
+}
 .d1{
-    color: black;
+    grid-area: d1;
     background-color: peachpuff;
-    font-size: large;
+    color: black;
 }
-
-.i1{
-    float: inline-center;
-}
-
-#n1{
+.d2{
+    grid-area: d2;
+    background-color: black;
     color: white;
-    background-color: rgba(0, 0, 0, 0);
+    
 }
-#n1:hover{
-    color: purple;
+#p1{
+    padding-left: 40%;
+}
+#p2{
+    width: 100%;
+    height: fit-content;
+}
+.n1{
+    grid-area: nav;
+    background-color:black;
+    color: white;
+}
+.d3{
+    grid-area: d3;
+    background-color: yellow;
+    color: black;
 }
